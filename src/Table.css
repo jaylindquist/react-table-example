@@ -1,0 +1,47 @@
+@import '~@csstools/normalize.css';
+
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table.dataTable {
+   border-spacing: 0;
+   border-collapse: separate;
+   border-spacing: 0 4px;
+   width: 100%;
+   padding: 12px;
+}
+
+.dataTable th {
+    font-size: 12px;
+}
+
+.dataTable td {
+    font-size: 14px;
+}
+
+.dataTable th, .dataTable td {
+    /* background-color: white; */
+    padding: 4px 12px;
+}
+
+.dataTable th:first-child, .dataTable td:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.dataTable th:last-child, .dataTable td:last-child {
+    border-radius: 0 4px 4px 0;
+} 
+
+.dataTable tr {
+    background-color: white;
+}
+.dataTable thead tr:hover {
+    background-color: white;
+    cursor: auto;
+}
+.dataTable tr:hover {
+    background-color: rgb(199, 242, 255);
+    cursor: pointer;
+}

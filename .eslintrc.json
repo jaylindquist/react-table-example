@@ -10,10 +10,12 @@
 		"no-cond-assign": 0,
 		"no-unused-vars": 1,
 		"no-extra-semi": "warn",
-		"semi": "warn"
+		"semi": "off"
 	},
+	"parser": "babel-eslint",
 	"extends": "eslint:recommended",
 	"parserOptions": {
+        "sourceType": "module",
 		"ecmaFeatures": {
 			"experimentalObjectRestSpread": true
 		}
